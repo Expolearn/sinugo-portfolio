@@ -95,3 +95,5 @@ h11 {
 .jumbotron {
   background-color: rgba(64, 170, 212, 0.2);
 }
+
+#more {display: none;}
