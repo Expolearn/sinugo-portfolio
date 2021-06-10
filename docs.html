@@ -6,109 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="style5.css">
-    <title>docs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   
+    <link rel="stylesheet" href="style5.css">
+    <title>Hire me</title>
   </head>
   <body>
-
-    <nav class="navbar  navbar-light navbar-dark">
+  <main>
+    <nav class="navbar navbar-expand-md navbar-dark  navbar-dark" aria-label="First navbar example">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+    
+          <div class="collapse navbar-collapse" id="navbarsExample01">
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="hireme.html">Hire Me</a>
-                <a class="nav-link" href="contact.html">Contact</a>
-               <a class="nav-link" aria-current="page" href="#">Docs</a>
+                
+
+              </li>
+              <li class="nav-item">
+               
+              </li>
+              <a  class="nav-link"  href="portfolio.html">Portfolio</a>
+              <a  class="nav-link" href="about.html">About</a>
+              <a  class="nav-link" href="hireme.html">Hire Me</a>
+              <a  class="nav-link" href="contact.html">Contact</a>
+              <a  class="nav-link active" aria-current="page" href="docs.html">Docs</a>
+             
             </ul>
+          
           </div>
         </div>
       </nav>
+        <br><br>
+    
+        <div class="jumbotron">
+            <h11>Projects</h11>
+           </div>
+           
+           <br><br>
+           <div class="box">
+             <img src="images/sky.jpg" alt="">
+             <h4>My First project</h4>
+             <p>We first create home page.
+                 which has login and signup page link.
+                 it also has a background
+             </p>
+             <a href="javascript:void();" class="readmore-btn">Read more</a>
+           </div>
+               
+           <div class="box">
+             <img src="images/sky.jpg" alt="">
+             <h4>hello</h4>
+             <p>ejhghgggguguguguguguggugugugugugugugugugug
+                 gggigigigigigigig
+                 ggiggigigigigigi
+                 gggigigigigigigig
+                 ggiggigigigigigi
+                 jguguguguguggugugugugugugugugugugugugugug
+                 gggigigigigigigig
+                 ggiggigigigigigi
+                 jguguguguguggugugugugugugugugugugugugugug
+                 gggigigigigigigig
+                 ggiggigigigigigi
+             </p>
+             <a href="javascript:void();" class="readmore-btn">Read more</a>
+           </div>
+           
+           <div class="box">
+             <img src="images/sky.jpg" alt="">
+             <h4>hello</h4>
+             <p>ejhghggghggfyugufghgghgugugugugugugugugug
+                 gggigigigigigigig
+                 ggiggigigigigigi
+                 gggigigigigigigig
+                 ggiggigigigigigi
+                 jguguguguguggugugugugugugugugugugugugugug
+                 gggigigigigigigig
+                 ggiggigigigigigi
+                 jguguguguguggugugugugugugugugugugugugugug
+                 gggigigigigigigig
+                 ggiggigigigigigi
+             </p>
+             <a href="javascript:void();" class="readmore-btn">Read more</a>
+           </div>
+           
+           
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+           <script>
+             $(".readmore-btn").on('click', function(){
+                 $(this).parent().toggleClass("showContent");
+           
+                 var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+                 $(this).text(replaceText);
+             });
+           </script>
+      
+  </main>
 
-      <br><br>
-      <div class="jumbotron">
-       <h11>Projects</h11>
-    </div>
-
-      <br><br>
-    <div class="box">
-        <img src="forest.jpg" alt="">
-        <h4>My First project</h4>
-        <p>We first create home page.
-            which has login and signup page link.
-            it also has a background
-        </p>
-        <a href="javascript:void();" class="readmore-btn">Read more</a>
-    </div>
-          
-    <div class="box">
-        <img src="forest.jpg" alt="">
-        <h4>hello</h4>
-        <p>ejhghgggguguguguguguggugugugugugugugugugug
-            gggigigigigigigig
-            ggiggigigigigigi
-            gggigigigigigigig
-            ggiggigigigigigi
-            jguguguguguggugugugugugugugugugugugugugug
-            gggigigigigigigig
-            ggiggigigigigigi
-            jguguguguguggugugugugugugugugugugugugugug
-            gggigigigigigigig
-            ggiggigigigigigi
-        </p>
-        <a href="javascript:void();" class="readmore-btn">Read more</a>
-    </div>
-
-    <div class="box">
-        <img src="forest.jpg" alt="">
-        <h4>hello</h4>
-        <p>ejhghggghggfyugufghgghgugugugugugugugugug
-            gggigigigigigigig
-            ggiggigigigigigi
-            gggigigigigigigig
-            ggiggigigigigigi
-            jguguguguguggugugugugugugugugugugugugugug
-            gggigigigigigigig
-            ggiggigigigigigi
-            jguguguguguggugugugugugugugugugugugugugug
-            gggigigigigigigig
-            ggiggigigigigigi
-        </p>
-        <a href="javascript:void();" class="readmore-btn">Read more</a>
-    </div>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script>
-        $(".readmore-btn").on('click', function(){
-            $(this).parent().toggleClass("showContent");
-
-            var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
-            $(this).text(replaceText);
-        });
-    </script>
-
-
+</nav>
+              
 <br>
-<footer id="footer">
-    <div class="footer">
-    <div class="copyright">
-    Copyright <strong>Sinugo</strong>. All Rights Reserved
-      </div>
-       <div class="credits">
-         Designed by <a>Sinugo Tshifhiwa</a>
-        </div>
-        </div>
-        </footer>
 
+
+
+    
+<br><br><br>
+
+
+   
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
