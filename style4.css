@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
 *{
   margin: 0;
   padding: 0;
@@ -36,78 +38,103 @@ color: white;
 }
 
 .container {
-  max-width: 500px;
-  margin: 0 auto;
-  border-radius: 2%;
-  background-color: lightslategray;
-  box-shadow: 0 0 20px 0 #999;
-
-            
-            
+  max-width:400px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
 }
- .contact-box {
-          
-          
-        }
-        
-        form {
-            margin: 35px;
-        }
-        
-        .input-field {
-            width: 400px;
-            height: 40px;
-            margin-top: 20px;
-            padding-left: 10px;
-            padding-right: 10px;
-            border: 1px solid #777;
-            border-radius: 14px;
-            outline: none;
-        }
-        
-        .textarea-field {
-            height: 150px;
-            padding-top: 10px;
-        }
-        
-        .btn {
-            border-radius: 20px;
-            color: #fff;
-            margin-top: 18px;
-            padding: 10px;
-            background-color: #47c35a;
-            font-size: 12px;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .nav-box li a {
-            padding: 14px 105px;
-        }
-        
-      
-        
-        li {
-            float: left;
-        }
-        
-        li a {
-            display: block;
-            color: rgb(0, 0, 0);
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        
-        li a:hover {
-            background-color: rgb(82, 40, 40);
-        }
 
-        h2 {
-          color: darkblue;
-          font-size: 2rem;
-          font-weight: 700;
-        }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#F9F9F9;
+  padding:25px;
+  margin:50px 0;
+}
+
+#contact h3 {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  background: -webkit-linear-gradient(right,green,blue,green,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:24%;
+  border:none;
+  background:rgba(47, 182, 21, 0.822);
+  color: rgba(255, 255, 255, 0.829);
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+  margin-left: 120px;
+  border-radius: 3%;
+}
+
+#contact button[type="submit"]:hover {
+  background:rgb(29, 173, 24);
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
 
         footer {
   background-color: rgba(0, 0, 0, 0.541);
@@ -120,34 +147,8 @@ color: white;
   color: white;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin-right: 10px;
-  margin-left: 90px;
-
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  margin-left: 80px;
-}
 
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-
-.fa:hover {
-  opacity: 0.7;
-}
 
 
 

@@ -83,17 +83,17 @@ p {
 .btn {
   display: inline-block;
   padding: 10px 12px;
-  background: green;
+  background: rgba(84, 113, 209, 0.911);
   font-size: 1.1rem;
   text-decoration: none;
   color: #f6f6f6;
-  border-radius: 10%;
+  border-radius: 4%;
   transition: background 0.5s;
   
 }
 
 .btn:hover {
-background: #0cac3c;
+background: #0eb90e;
 }
 
 footer {

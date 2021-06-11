@@ -52,34 +52,33 @@
 </nav>
               
 <br>
-<div class="container">
-          
 
-    <div class="contact-box">
-
-<form>
-
-    <h2>Contact Me</h2>
-    <input type="text" class="input-field" placeholder="Name:">
-    <input type="text" class="input-field" placeholder="Surname:">
-    <input type="email" class="input-field" placeholder="Email:" required>
-    <textarea type="text" class="input-field" placeholder="Type Message here:" required></textarea>
-    <button type="submit" value="submit" class="btn">Send Message</button>
-           
-           <br><br>
-
-           
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a> 
-
-
-</form>
-
-
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3><b>Get in touch!</b></h3>
+    
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
 </div>
-<br>
-</div>
-    <br>
 
 
 
