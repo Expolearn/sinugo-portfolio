@@ -105,6 +105,7 @@ footer {
   font-size: 15px;
   transition: 0.4s;
   border-collapse: separate;
+  border-radius: 5px;
 }
 
 .active, .accordion:hover {
