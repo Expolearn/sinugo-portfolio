@@ -10,6 +10,11 @@ body {
 opacity: 0.9;
 }
 
+.navbar-nav {
+  background-color: rgba(10, 10, 10, 0.397);
+  width: 97%;
+}
+
 
 .navbar-nav a{
   text-decoration: none;
@@ -66,6 +71,7 @@ h10 {
   color: whitesmoke;
   font-size: 3rem;
   font-weight: 700;
+  margin-left: 145px;
 }
 
 p {
@@ -77,16 +83,17 @@ p {
 .btn {
   display: inline-block;
   padding: 10px 12px;
-  background: #f6f6f6;
-  font-size: 1.3rem;
+  background: green;
+  font-size: 1.1rem;
   text-decoration: none;
-  color: green;
-  border-radius: 3px;
+  color: #f6f6f6;
+  border-radius: 10%;
   transition: background 0.5s;
+  
 }
 
 .btn:hover {
-background: #dadada;
+background: #0cac3c;
 }
 
 footer {

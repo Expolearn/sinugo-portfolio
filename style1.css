@@ -10,6 +10,10 @@ body {
 opacity: 0.9;
 }
 
+.navbar-nav {
+  background-color: rgba(10, 10, 10, 0.397);
+  width: 97%;
+}
 
 .navbar-nav a{
   text-decoration: none;
@@ -35,7 +39,7 @@ main {
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 500px;
-  height: 500px;
+  height: 400px;
   text-align: center;
   margin-left: 20px;
 }
@@ -63,6 +67,7 @@ h2 {
   color: white;
   font-family: arial;
   font-size: 25px;
+  margin-left: 40px;
 }
 
 h3, h4, p {
