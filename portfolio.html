@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="style1.css">
     <title>Portfolio</title>
     <link rel="shortcut icon" type="images/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style1.css">
   </head>
   <body>
-  
+    
     <nav class="navbar navbar-expand-md navbar-dark  navbar-dark" aria-label="First navbar example">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Sinugo</a>
@@ -46,80 +47,74 @@
       </nav>
         <br><br>
       <h2>Portfolio</h2>
-     <main>
-      <button class="accordion">Surname</button>
-      <div class="panel">
-        <p> Sinugo</p>
+
+    <div class="box">
+       
+        <h4>Personal Details</h4>
+        <p>Surname: <br>Sinugo
+            <br>Name: <br>Tshifhiwa
+            <br>Date of birth : <br>01/09/1996
+            <br>Gender: <br>Male
+            <br>Address: <br>48 Belhambra Crescent
+            <br>Protea glen
+            <br>Soweto
+            <br>1818
+        </p>
+        <a href="javascript:void();" class="readmore-btn">Read more</a>
+      </div>
+          
+      <div class="box">
+      
+        <h4>Languages</h4>
+        <p> 
+            <br>English: <br>Speak - Good<br>Write - good
+            <br>Tshivenda: <br>Speak - Good<br>Write - good
+            <br>Tsonga: <br>Speak - Good<br>Write - Fair
+        </p>
+        <a href="javascript:void();" class="readmore-btn">Read more</a>
       </div>
       
-      <button class="accordion">Name</button>
-      <div class="panel">
-        <p>Tshifhiwa</p>
+      <div class="box">
+        
+        <h4>Education & Skills</h4>
+        <p>
+            Name of school: Johannes ramavhoya high school<br>
+            Grade 12<br>
+            2015<br>
+            <br>
+            University of venda<br>
+            BSc in Computer Sciences<br>
+            2021<br><br>
+            <b>Skills</b><br>
+            Html<br>css<br>JavaScript<br>Bootstrap
+        </p>
+        <a href="javascript:void();" class="readmore-btn">Read more</a>
+      </div>
+
+      <div class="box">
+        
+        <h4>Contact</h4>
+        <p> Cell: 0762852677<br>
+            Mobile: 0711272318<br>
+            Email: sinugolunna@gmail.com<br>
+            LinkedIn: https://www.linkedin.com/in/tshifhiwa-sinugo-a758b98a/
+        </p>
+        <a href="javascript:void();" class="readmore-btn">Read more</a>
       </div>
       
       
-      <button class="accordion">Language</button>
-      <div class="panel">
-        <p>English, Venda</p>
-      </div>
-      
-      <button class="accordion">Contact</button>
-      <div class="panel">
-        <p>(+27)76 285 2677</p>
-      </div>
-      <button class="accordion">Email</button>
-      <div class="panel">
-        <p>sinugolunna@gmail.com</p>
-      </div>
-      
-      <button class="accordion">Qualifications</button>
-      <div class="panel">
-        <p>BSc in Computer Sciences</p>
-      </div>
-      <button class="accordion">Skills</button>
-      <div class="panel">
-        <p>HTML, CSS, JAVA, JAVASCRIPT</p>
-      </div>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
       <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
+        $(".readmore-btn").on('click', function(){
+            $(this).parent().toggleClass("showContent");
       
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "flex") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "flex";
-          }
+            var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+            $(this).text(replaceText);
         });
-      }
       </script>
-     </main>
-     
-      
-  
-
-</nav>
-              
-<br><br><br>
 
 
-
-<br><br><br><br>
-
-<footer id="footer">
-<div class="footer">
-<div class="copyright">
-&copy; Copyright <strong>Sinugo</strong>. All Rights Reserved
- </div>
-  <div class="credits">
-    Designed by <a>Sinugo Tshifhiwa</a>
-   </div>
-   </div>
-   </footer>
+<br><br><br><br><br><br><br><br>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
