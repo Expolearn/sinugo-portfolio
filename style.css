@@ -75,7 +75,7 @@ button:hover, a:hover {
 
 .container {
    border: 5px;
-   height: 600px;
+   height: 710px;
    width: 350px;
    margin: 0 auto;
    border-radius: 8px;
@@ -117,6 +117,9 @@ p {
   margin-left: 10px;
 }
 
+hr {
+  color: white;
+}
 
 .fa:hover {
   opacity: 0.7;
@@ -148,26 +151,10 @@ footer {
 }
 
 
-@media screen and (max-width: 700px) {
-  h1 {
-   color: skyblue;
-  }
-  p {
-    color: cadetblue;
-  }
+@media screen and (min-width: 700px) {
 
-   nav a{
-    text-decoration: none;
-  color: white;
-  font-size: 12px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding: 14px 16px;
-  }
 
-  footer, strong, a{
-      width: 100%;
-      font-size: 13px;
-  }
+
+
 }
 
