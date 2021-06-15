@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100%;
 }
 body {
   background-image: url(images/avid.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 opacity: 0.9;
+height: 100%;
 }
 
 .navbar-nav {
