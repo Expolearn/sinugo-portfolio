@@ -45,6 +45,7 @@ img {
   height: 300px;
   border-radius: 50%;
   margin-bottom: 30px;
+  border: 15px solid #555;
 }
 
 .fa {
