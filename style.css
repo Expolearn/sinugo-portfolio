@@ -14,14 +14,14 @@ body {
 }
 
 .navbar-nav {
-  background-color: rgba(10, 10, 10, 0.397);
-  width: 97%;
+   
+  
 }
 
 
 .navbar-nav a{
   text-decoration: none;
-color: white;
+color: rgb(252, 252, 252);
 font-size: 15px;
 padding-right: 10px;
 padding-left: 10px;
@@ -29,8 +29,8 @@ padding: 14px 16px;
 }
 
 .navbar-nav a:hover {
-background-color: rgba(59, 83, 190, 0.589);
-color: black;
+background-color: rgba(16, 160, 40, 0.692);
+color: rgb(255, 255, 255);
 }
 
 .navbar-nav a.active {
