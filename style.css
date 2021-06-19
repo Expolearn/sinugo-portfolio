@@ -5,10 +5,8 @@
   
 }
 body {
-  background-image: url(images/blue.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.9;
+  background: linear-gradient(110deg, #3b65b3 50%, #165cdf98 50%);
+  
 
   
 }
