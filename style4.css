@@ -58,7 +58,7 @@ color: black;
   color: whitesmoke;
   font-weight: 700;
   font-size: 1.5rem;
-  background: -webkit-linear-gradient(right,green,rgb(156, 187, 142),green,rgb(131, 170, 115));
+  background: -webkit-linear-gradient(right,rgba(156, 160, 156, 0.767),rgba(156, 187, 142, 0.795),rgb(255, 255, 255),rgb(131, 170, 115));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
