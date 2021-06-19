@@ -12,10 +12,6 @@ opacity: 0.9;
 
 }
 
-.navbar-nav {
-  background-color: rgba(10, 10, 10, 0.397);
-  width: 97%;
-}
 
 
 .navbar-nav a{
@@ -28,15 +24,10 @@ padding: 14px 16px;
 }
 
 .navbar-nav a:hover {
-background-color: rgba(59, 83, 190, 0.589);
+background-color: rgba(16, 160, 40, 0.692);
 color: black;
 }
 
-.navbar-nav a.active {
-background-color: #12833ec7;
-color: white;
-
-}
 
 
 .container {
