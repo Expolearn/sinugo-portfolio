@@ -91,3 +91,17 @@ h2 {
   color: whitesmoke;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 590px) {
+  .box {
+    width: 60%;
+float: left;
+margin: 30px 10px;
+background-color: whitesmoke;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+margin-right: 30px;
+margin-left: 80px;
+  }
+}
