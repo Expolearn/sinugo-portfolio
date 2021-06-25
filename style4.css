@@ -27,6 +27,13 @@ background-color: rgba(16, 160, 40, 0.692);
 color: black;
 }
 
+.navbar-nav a.active {
+  background-color: #12833ec7;
+  color: white;
+  border-radius: 7px;
+  
+  }
+
 .address-icon i{
   font-size: 36px;
   line-height: 32px;
@@ -60,6 +67,20 @@ color: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+navbar-nav a.active {
+  background-color: #12833ec7;
+  color: white;
+  border-radius: 7px;
+  
+  }
+
+  .Qries {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 
 
 

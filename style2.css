@@ -49,11 +49,25 @@ h2 {
 
 }
 
-.images, img {
+.navbar-nav a.active {
+  background-color: #12833ec7;
+  color: white;
+  border-radius: 7px;
+  
+  }
+
+.respo {
  margin: left;
   height: 200px;
   width: 250px;
   border-radius: 10%;
+}
+
+.Qries {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 2px;
+padding-right: 2px;
 }
 
 h10 {
